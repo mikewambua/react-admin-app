@@ -1,0 +1,95 @@
+.app.dark {
+  background-color: #080111;
+  color: #ede9f1;
+
+  .chartGrid {
+    stroke: #2e2427;
+  }
+
+  .table {
+    background-color: #080111;
+
+    .tableCell {
+      color: #d2ccda;
+    }
+  }
+
+  .navbar {
+    color: #d2ccda;
+    border-color: #2e2427;
+
+    .search {
+      border-color: #2e2427;
+    }
+  }
+
+  .sidebar {
+    background-color: #080111;
+    border-color: #2e2427;
+
+    .top {
+      .logo {
+        color: #d2ccda;
+      }
+    }
+
+    hr {
+      border-color: #2e2427;
+    }
+
+    ul {
+      li {
+        &:hover {
+          background-color: #2e2427;
+        }
+
+        .title {
+          color: #d2ccda;
+        }
+
+        .link-title {
+          color: #d2ccda;
+        }
+
+        .icon {
+          color: #d2ccda;
+        }
+      }
+    }
+  }
+
+  .datatable {
+    .datagrid {
+      color: #d2ccda;
+      border: none;
+
+      .viewButton,
+      .deleteButton,
+      .cellWithStatus {
+        color: #d2ccda;
+        border: none;
+      }
+    }
+  }
+
+  input {
+    background-color: transparent;
+  }
+
+  .single {
+    .singleContainer {
+      .left {
+        .item {
+          .itemTitle {
+            color: #d2ccda;
+          }
+          .details {
+            .itemKey {
+              color: #d2ccda;
+            }
+          }
+        }
+      }
+    }
+  }
+}
